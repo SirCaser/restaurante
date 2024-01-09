@@ -1,0 +1,51 @@
+@import "node_modules/bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+#miCarrusel {
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.carousel-inner{
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carrusel{
+    margin: 15px 4% 15px 4%;
+    background-color: #DDB892;
+    width: 90%;
+    height: 530px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px; /* Ajusta el ancho máximo según tus necesidades */
+    padding: 10px;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px; /* Ajusta el ancho máximo según tus necesidades */
+    padding: 10px;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image-container img {
+    width: 197px;
+    height: 197px;
+    margin: 5px; /* Espacio entre las imágenes */
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}

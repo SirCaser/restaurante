@@ -1,0 +1,49 @@
+@import "node_modules/bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+nav{
+    background: #fff;
+    height: 80px;
+    width: 90%;
+    margin-left: 4%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.logo{
+    margin-top: -26px;
+    height: 90px;
+}
+nav ul{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #5B443B;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #DDB892;
+    color: #5B443B;
+    transition: .5s;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    background-color: #fff;
+    margin: 15px 4% 15px 4%;
+    width: 90%;
+    height: 100px;
+    padding: 42px;
+    text-align: center;
+    border-radius: 5px;
+}
